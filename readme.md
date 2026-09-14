@@ -25,37 +25,39 @@ Each top-level directory in this repository corresponds to a specific dataset fr
 │   ├── analysis.ipynb / script.py
 │   └── README.md
 └── README.md  <-- You are here
+```
+
+---
 
 ## 🚀 Workflow & Publishing Process
-Pick a Dataset: Choose a dataset from the CodeSights Datasets page.
 
-Explore & Analyze: Download the CSV/data files, execute analysis using Python/R/SQL, and generate insights.
+1. **Pick a Dataset** – Choose a dataset from the CodeSights Datasets page.
+2. **Explore & Analyze** – Download the CSV/data files, execute analysis using Python/R/SQL, and generate insights.
+3. **Document** – Place scripts, notebooks, and a brief markdown summary of key findings inside the respective dataset directory.
+4. **Publish** – Submit and showcase the verified insights back to the CodeSights platform.
 
-Document: Place scripts, notebooks, and a brief markdown summary of key findings inside the respective dataset directory.
+---
 
-Publish: Submit and showcase the verified insights back to the CodeSights platform.
+## 🛠️ Tools & Technologies
 
-🛠️ Tools & Technologies
-Languages: Python / R / SQL
+- **Languages:** Python / R / SQL
+- **Data Manipulation:** pandas, polars, numpy
+- **Visualization:** matplotlib, seaborn, plotly
+- **Platform:** CodeSights
 
-Data Manipulation: pandas, polars, numpy
+---
 
-Visualization: matplotlib, seaborn, plotly
+## 📌 Featured Datasets Analyzed
 
-Platform: CodeSights
+- **US Hurricanes** – Frequency, intensity, and historical impact analysis.
+- **Battles** – Casualty trends and geographic distribution across historical conflicts.
+- **Airport Passengers by Year** – Pre- and post-COVID recovery patterns across global hubs.
+- **Academy Award Films & Stars** – Deep dives into film budgets, runtimes, and star career spans.
 
-📌 Featured Datasets Analyzed
-US Hurricanes – Frequency, intensity, and historical impact analysis.
+---
 
-Battles – Casualty trends and geographic distribution across historical conflicts.
+## 🤝 Contributing & Guidelines
 
-Airport Passengers by Year – Pre- and post-COVID recovery patterns across global hubs.
-
-Academy Award Films & Stars – Deep dives into film budgets, runtimes, and star career spans.
-
-🤝 Contributing & Guidelines
-Keep scripts well-commented and reproducible.
-
-Place raw data in .gitignore if files exceed standard repository storage recommendations.
-
-Ensure all published insights reference the original dataset source on CodeSights.
+- Keep scripts well-commented and reproducible.
+- Place raw data in `.gitignore` if files exceed standard repository storage recommendations.
+- Ensure all published insights reference the original dataset source on CodeSights.
